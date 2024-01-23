@@ -39,7 +39,13 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+    inquirer
+    .prompt(questions)
+    .then((answers) => {
+        const readmeContent = generateMarkdown(answers);
+        const outputDir = path.resolve(__dirname, 'output', 'hamdishh');
+        const outputFileName = path.join(outputDir, 'README.md');
+    })
 }
 
 // function call to initialize program
