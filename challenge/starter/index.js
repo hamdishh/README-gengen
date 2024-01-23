@@ -45,7 +45,18 @@ function init() {
         const readmeContent = generateMarkdown(answers);
         const outputDir = path.resolve(__dirname, 'output', 'hamdishh');
         const outputFileName = path.join(outputDir, 'README.md');
+
+        //Create if statement to check if output directory exists
+        if (!fs.existsSync(outputDir)) {
+            fs.mkdirSync(outputDir, { recursive: true });
+        }
+
+        fs.writeToFile(outputFileName, readmeContent);
+        console.log('README.md generated successfully at ${outputFileName}`);');
     })
+    .catch((error) => {
+        console.error('An error has occurred, README.md cannot be generated:', error);
+    });
 }
 
 // function call to initialize program
