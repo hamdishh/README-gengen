@@ -13,8 +13,16 @@ const questions = [
 {
     type: 'input',
     name: 'description',
-    message: 'Provide a description for your project'
+    message: 'Please provide a description for your project:'
 },
+{
+    type: 'input',
+    name: 'challenge',
+    message: 'Please enter the instructions of your challenge',
+},
+{
+    
+}
 ];
 
 // function to write README file
