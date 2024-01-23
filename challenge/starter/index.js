@@ -21,7 +21,9 @@ const questions = [
     message: 'Please enter the instructions of your challenge',
 },
 {
-    
+    type: 'input',
+    name: 'username',
+    message: 'Please enter your GitHub username:',
 }
 ];
 
