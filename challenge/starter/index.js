@@ -24,11 +24,17 @@ const questions = [
     type: 'input',
     name: 'username',
     message: 'Please enter your GitHub username:',
-}
+},
+{
+    type: 'input',
+    name: 'email',
+    message: 'Please enter your email address',
+},
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName, data);
 }
 
 // function to initialize program
