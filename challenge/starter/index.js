@@ -18,19 +18,23 @@ const questions = [
   {
     type: 'input',
     name: 'installation',
-    message: 'Please enter installation instructions',
+    message: 'Please enter installation instructions:',
   },
    {
     type: 'input',
     name: 'contributing',
-    message: 'Enter contribution guidelines',
+    message: 'Enter contribution guidelines:',
    },
    {
     type: 'input',
     name: 'usage',
-    message: 'Enter usage information',
+    message: 'Enter usage information:',
    },
-   
+{
+    type: 'list',
+    name: 'license',
+    message: 'Choose a license for your project:'
+},
   {
     type: 'input',
     name: 'challenge',
