@@ -19,7 +19,13 @@ const questions = [
     type: 'input',
     name: 'installation',
     message: 'Please enter installation instructions',
-  }
+  },
+   {
+    type: 'input',
+    name: 'contributing',
+    message: 'Enter contribution guidelines',
+   },
+   
   {
     type: 'input',
     name: 'challenge',
