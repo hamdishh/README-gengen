@@ -2,16 +2,16 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## Description
+ ## Description
   ${data.description}
 
-  ## Challenge Instructions
+## Challenge Instructions
 ${data.challenge}
 
 ## Usage
 - Clone the repository USING SSH key.
 - Run the command \`npm install\` to install dependencies.
-- Run the command \`node index.js\` to generate the READ
+- Run the command \`node index.js\` to generate the README 
 
 ## License
 This project is licensed under the ${data.license} license.
