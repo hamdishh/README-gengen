@@ -17,8 +17,8 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'installation'
-    
+    name: 'installation',
+    message: 'Please enter installation instructions',
   }
   {
     type: 'input',
