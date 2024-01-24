@@ -17,6 +17,11 @@ const questions = [
   },
   {
     type: 'input',
+    name: 'installation'
+    
+  }
+  {
+    type: 'input',
     name: 'challenge',
     message: 'Please enter the instructions of your challenge:',
   },
