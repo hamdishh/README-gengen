@@ -1,7 +1,7 @@
 # Module 11 Challenge: Professional README Generator
 
 ## Description
-
+This weeks project was centered around the 
 
 
 
@@ -25,5 +25,5 @@
 
 
 ### Walkthrough Video: 27%
-
+[Title](<../Screen Recording 2024-01-24 at 18.17.19.mov>)
 
