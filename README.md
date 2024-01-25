@@ -14,14 +14,14 @@ When calling the generateMarkdown function to provide the answers to the questio
 
 
 
-## Walkthrough Link
+### Walkthrough Link
+[Title](<../Screen Recording 2024-01-24 at 18.17.19.mov>)
 
 
 ## Link to Github Pages
+https://hamdishh.github.io/README-gengen/
 
 
 
 
-### Walkthrough Video: 27%
-[Title](<../Screen Recording 2024-01-24 at 18.17.19.mov>)
 
