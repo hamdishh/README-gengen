@@ -7,9 +7,7 @@ A high quality README is essential for providing information on an applications 
 Using Node.js and ES6 syntax I was successfully able to produce a command-line application that dynamically generates a README.md file containing input on this project. The generated README.md is within the output/hamdishh folder.
 
 ## Code highlights/ What i learned during the challenge
-When calling the generateMarkdown function to provide the answers to the questions when running node index.js i was struggling to figure out how to store my output which would be the answers within the README.md once its generated. After some googling i figured out a method that was best for me, 'const outputDir = path.resolve(__dirname, 'output', 'hamdishh');'. In this line of code i specified my output directory by just requesting to put my output in a folder named hamdishh so it could be in a different directly to my script/index.js file. 'const outputFileName = path.join(outputDir, 'README.md');', here i joined the output directory with my 
-
-
+When calling the generateMarkdown function to provide the answers to the questions when running node index.js i was struggling to figure out how to store my output which would be the answers within the README.md once its generated. After some googling i figured out a method that was best for me, 'const outputDir = path.resolve(__dirname, 'output', 'hamdishh');'. In this line of code i specified my output directory by just requesting to put my output in a folder named hamdishh so it could be in a different directly to my script/index.js file. 'const outputFileName = path.join(outputDir, 'README.md');', here i joined the output directory with my README.md file which will provide a path to the output file within the output directory.
 
 ## Sample Images
 
